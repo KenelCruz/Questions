@@ -1,0 +1,67 @@
+*{
+  transition: all 0.4s;
+}
+body{
+  background-image: url("../../../assets/img/Fondo2.svg");
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 120%;
+}
+.contenedor{
+
+  width: 58vw;
+  height: 47vw;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.encabezado{
+  background:darkgray;
+  min-width: 300px;
+  max-width: 600px;
+  width: 70%;
+
+}
+.categoria{
+  opacity: 0.5;
+  text-align: left;
+  margin: 5px;
+}
+.pregunta{
+  padding: 10px;
+}
+.imagen{
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  padding: 10px;
+
+}
+.btn{
+  background: darkgray;
+  width: 60%;
+  max-width: 550px;
+  padding: 10px;
+  margin: 5px;
+}
+.btn:hover{
+  background: darkgray;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.numero{
+  position: absolute;
+  opacity:0.5;
+  top: 10px;
+  right: 10px;
+}
+
+.puntaje{
+  padding:20px;
+
+  color:white;
+}

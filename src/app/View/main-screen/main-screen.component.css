@@ -1,0 +1,50 @@
+*{
+  transition: all 0.4s;
+
+
+}
+body{
+  background-image: url("../../../assets/img/Fondo2.svg");
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 120%;
+}
+
+.contenedor{
+
+  width: 58vw;
+  height: 47vw;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.encabezado{
+
+  min-width: 300px;
+  max-width: 600px;
+  width: 70%;
+
+}
+.imagen{
+  object-fit: contain;
+  height: 400px;
+  width: 100%;
+  padding: 10px;
+
+}
+.btn{
+  background: darkgray;
+  width: 40%;
+  max-width: 550px;
+  padding: 10px;
+  margin: 5px;
+  font-size: larger;
+}
+.btn:hover{
+  background: #2c528e;
+  cursor: pointer;
+  transform: scale(1.05);
+}

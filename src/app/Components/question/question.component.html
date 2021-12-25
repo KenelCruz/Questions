@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preguntas</title>
+</head>
+<body>
+<div class="contenedor">
+  <div class="puntaje" id="puntaje"></div>
+  <div class="encabezado">
+    <div class="categoria" [innerHTML]="Categorias" id="categoria">
+
+    </div>
+    <div class="numero" id="numero"></div>
+    <div class="pregunta" [innerHTML]="Preguntas" id="pregunta">
+      Pregunta
+    </div>
+    <img src="" class="imagen" alt="" id="imagen">
+  </div>
+  <div class="btn" [innerHTML]="Respuesta"   id="btn1" (click)="Seleccionar_boton(0)">
+    opc 1
+  </div>
+  <div class="btn" [innerHTML]="Incorrecta1" id="btn2" (click)="Seleccionar_boton(1)">
+    opc 2
+  </div>
+  <div class="btn" [innerHTML]="Incorrecta2" id="btn3" (click)="Seleccionar_boton(2)">
+    opc 3
+  </div>
+  <div class="btn" [innerHTML]="Incorrecta3" id="btn4" (click)="Seleccionar_boton(3)">
+    opc4
+  </div>
+</div>
+
+</body>
+</html>

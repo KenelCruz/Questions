@@ -1,0 +1,43 @@
+[
+  {
+    "Categoria" : "Historia",
+    "Pregunta" : "Quién es el padre de la patria?",
+    "Respuesta" : "Juan Pablo Duarte",
+    "Incorrecta1" : "Felix Encarnizo",
+    "Incorrecta2" : "Pedro Santana",
+    "Incorrecta3" : "Jefe Maestro"
+  },
+  {
+    "Categoria" : "Historia",
+    "Pregunta" : "¿La trinitaria se llamó asi por?",
+    "Respuesta" : "La componían 3 Personas",
+    "Incorrecta1" : "La componían 8 Personas",
+    "Incorrecta2" : "La Trifuerza",
+    "Incorrecta3" : "La componían 25 Personas"
+  },
+  {
+    "Categoria" : "Historia",
+    "Pregunta" : "¿Cuál es el año de la Independencia?",
+    "Respuesta" : "1844",
+    "Incorrecta1" : "1856",
+    "Incorrecta2" : " 1833",
+    "Incorrecta3" : "2021"
+  },
+  {
+    "Categoria" : "Historia",
+    "Pregunta" : "¿La batalla de 30 de marzo se libró en?",
+    "Respuesta" : "Santiago",
+    "Incorrecta1" : "Azua",
+    "Incorrecta2" : "Nagua",
+    "Incorrecta3" : "En la ciudad"
+  },
+  {
+    "Categoria" : "Historia",
+    "Pregunta" : "¿Fue quién disparó el trabucazo?",
+    "Respuesta" : "Ramon Matias Mella",
+    "Incorrecta1" : "Francisco del Rosario Saches",
+    "Incorrecta2" : "Felipe Alfau",
+    "Incorrecta3" : "Chiryu"
+  }
+
+]
